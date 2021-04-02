@@ -9,7 +9,7 @@ All searches are done via HTTP requests to web endpoints. They are valid as of 4
 You will need two (free) third-party accounts for this code to work properly: Twilio (to send text notifications) & opencagedata.com (to provide location decoding services). Enter your API keys and phone number into the private_API_keys.py file. 
 
 Configuration:
-In addition to copying your API keys into the private_API_keys.py file as mentioned above, there are a few options you should set near the top of the main VaccineAvailability.py file that you can configure, particularly your location - these should be self explanatory.
+In addition to copying your API keys into the private_API_keys.py file as mentioned above, there are a few options near the top of the main VaccineAvailability.py file that you should configure, particularly your location - these should be self explanatory.
 
 All dependencies can be easily installed with pip.
 
