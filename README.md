@@ -11,3 +11,5 @@ You will need two (free) third-party accounts for this code to work properly: Tw
 
 Configuration:
 In addition to copying your API keys into the private_API_keys.py file as mentioned above, there are a few options you can set near the top of the main VaccineAvailability.py file that you can configure, this should be self explanatory.
+
+All dependencies can be easily installed with pip.
