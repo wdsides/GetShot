@@ -14,4 +14,4 @@ In addition to copying your API keys into the private_API_keys.py file as mentio
 All dependencies can be easily installed with pip.
 
 Running the code:
-This program will run indefinitely as long as you let it run. It searches all three pharmacies every two minutes. It is fairly verbose in the console. If textNotifications=True, it will send SMS notifications to your phone when it finds a nearby availability, with a link to sign up. It will only send a limited number SMS notifications per session, so that it will not spam your phone too much if a lot of appointments open up. To reset the counter, restart the code. 
+This program will run indefinitely as long as you let it. It searches all three pharmacies every two minutes. It's fairly verbose in the console. If textNotifications=True, it will send SMS notifications to your phone when it finds a nearby availability, with a link to sign up. It will only send a limited number SMS notifications per session, so that it will not spam your phone too much if a lot of appointments open up. To reset the counter, restart the code. 
