@@ -2,8 +2,7 @@
 Python program that searches for nearby COVID vaccine appointments at CVS, Walgreens, and Safeway (Albertsons), with optional SMS text notifications.
 
 Disclaimer:
-This code is offered 'as-is', without any warranty whatsoever. I cannot accept liability for any damages resulting from the use of this code. Use at your own risk. 
-It was thrown together very quickly and carelessly with little regard to readability or style, and with very little debugging. It may work fine for other users/locations, it may wipe your hard drive, or it may explode. I haven't tested it, I don't know. It almost certainly won't work outside the US. 
+This code is provided 'as-is'. See license for full disclaimer. This code was thrown together very quickly and carelessly with little regard to readability or style, and with very little debugging. It may work fine for other users/locations, it may wipe your hard drive, or it may explode. I haven't tested it, I don't know. It almost certainly won't work outside the US. 
 
 All searches are done via HTTP requests to web endpoints. They are valid as of 4/2/2021, but may stop working in the future, breaking the code unless and until a valid endpoint can be found.
 
