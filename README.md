@@ -12,3 +12,6 @@ Configuration:
 In addition to copying your API keys into the private_API_keys.py file as mentioned above, there are a few options you should set near the top of the main VaccineAvailability.py file that you can configure, particularly your location - these should be self explanatory.
 
 All dependencies can be easily installed with pip.
+
+Running the code:
+This program will run indefinitely as long as you let it run. It searches all three pharmacies every two minutes. It is fairly verbose in the console. If textNotifications=True, it will send SMS notifications to your phone when it finds a nearby availability, with a link to sign up. It will only send a limited number SMS notifications per session, so that it will not spam your phone too much if a lot of appointments open up. To reset the counter, restart the code. 
